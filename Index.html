@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            sign up page
+        </title>
+    </head>
+    <body>
+        <h1>Sign Up</h1>
+    <form>
+        Name:<br>
+        <input list="fullname" type="text" placeholder="Fullname" required>
+        <datalist id="fullname">
+            <option>Fullname</option>
+            <option>Sriram</option>
+            <option>Sai</option>
+        </datalist>
+        <br><br>
+        email:<br>
+        <input type="text" placeholder="gmail id" required>
+        <br><br>
+        password:<br>
+        <input type="text" placeholder="8 characters" required>
+        <br><br>
+        Confirm password:<br>
+        <input type="text" placeholder="8 characters" required>
+        <br><br>
+        Date  Of Birth:<br>
+        <input type="date" name="date" placeholder="dd/mm/yyyy" required>
+        <br><br>
+        Gender:<br>
+        <input type="radio" name="Male" value="Male">Male
+        <input type="radio" name="Female" value="Female">Female
+        <input type="radio" name="other" value="other">Other
+        <br><br>
+        Insert your photo:<br>
+        <input type="file" name="image">
+        <br><br>
+        Insert your Resume:<br>
+        <input type="file" name="file">
+        <br><br>
+        Search Questions:<br>
+        <select name="search Questions">
+            <option>Search</option>
+            <option>what is this</option>
+            <option>How can i help you</option>
+        </select>
+        <br>
+        <textarea name="answer" rows="6" cols="15"></textarea><br>
+        <input type="checkbox">I agree terms and conditions</input>
+        <br><br>
+        <input type="submit" value="Register">
+    </form> 
+        </body>
+</html>
